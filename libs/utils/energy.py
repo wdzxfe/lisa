@@ -54,7 +54,14 @@ DEFAULT_ENERGY_METER = {
             'big' : 'BOARDBIG',
         }
     },
-
+    
+    'sp9863a' : {
+		'instrument' : 'hwmon',
+		'channel_map' : {
+			'Little' : 'A53_0',
+			'big' : 'A53_1',
+		}
+    },
 }
 
 EnergyReport = namedtuple('EnergyReport',
